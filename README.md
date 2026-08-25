@@ -1,3 +1,21 @@
+# Chess Game
+
+A simple browser-based Chess game where you play against the computer.
+
+## 🎮 Live Demo
+
+👉 [Play Chess Online](https://chessgram.netlify.app/)
+
+## Features
+
+- Player vs Computer
+- Legal chess moves
+- Check and checkmate detection
+- Draw detection
+- Move highlighting
+- Restart game
+- Simple responsive UI
+
 # Chess Game: Player vs Computer
 
 A simple frontend-only chess game where you play White and the computer plays Black.
