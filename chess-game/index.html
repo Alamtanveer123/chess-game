@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Game: Player vs Computer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="game-panel" aria-label="Chess game">
+        <header class="game-header">
+          <div>
+            <p class="eyebrow">Player vs Computer</p>
+            <h1>Chess Game</h1>
+          </div>
+          <button id="restartButton" class="restart-button" type="button">Restart</button>
+        </header>
+
+        <div class="status-bar" aria-live="polite">
+          <span id="turnLabel">Your Turn</span>
+          <strong id="statusLabel">White to move</strong>
+        </div>
+
+        <div id="board" class="board" aria-label="Chess board"></div>
+
+        <footer class="legend" aria-label="Board highlights">
+          <span><i class="selected-sample"></i> Selected</span>
+          <span><i class="move-sample"></i> Legal move</span>
+          <span><i class="last-sample"></i> Last move</span>
+        </footer>
+      </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
